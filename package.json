@@ -1,0 +1,25 @@
+{
+  "name": "bascha",
+  "version": "1.0.0",
+  "description": "basic chat implementation",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jescortam/bascha.git"
+  },
+  "author": "Jesus Cornejo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jescortam/bascha/issues"
+  },
+  "homepage": "https://github.com/Jescortam/bascha#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2"
+  }
+}
